@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!---- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- OG Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="./assets/images/uhelp-og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5D2W36M');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+
+    <main class="donations">
+        <div class="donations__inside">
+            <section class="donations__intro">
+                <div class="donations__intro__inside">
+                    <h1 class="donations__intro__title">Dove vanno le mie donazioni?</h1>
+                <p>Se sei un utente, le tue donazioni andranno a favore dei fondi designati dai comuni, per il comune da te indicato.</p>
+                <p>Sei invece un nuovo comune e vorresti aderire? E raccogliere anche tu fondi? Molto volentieri!
+                    <br />Scrivici a <a href="mailto:info@uHelp.shop">info@uHelp.shop</a> Tutte le donazioni nel tuo comune andranno a tuo favore.</p>
+                </div>
+            </section>
+
+            <section class="donations__last">
+                <div class="donations__last__inside">
+                    <h2>Ultime 25 donazioni:</h2>
+
+                <div class="donations__last__list">
+
+                </div>
+
+                <p>Grazie,</p>
+                <p><i>Il team uHelp</i></p>
+                </div>
+            </section>
+
+            <section class="donations__founds">
+                <div class="donations__founds__list">
+                    <div class="donations__founds__single">
+                        <div class="donations__founds__single__inside">
+                            <img src="./assets/images/founds/milano.png" alt="Milano">
+                            <h3>Milano</h3>
+                            <p><strong>Fondo di Mutuo Soccorso del Comune di Milano</strong></p>
+                            <p><strong>IBAN:</strong> IT58G0306901783100000000551</p>
+                            <p><strong>Causale:</strong> Donazioni uHelp</p>
+                            <p><strong>Info:</strong> <a href="https://www.comune.milano.it/-/coronavirus.-dal-comune-di-milano-un-fondo-di-mutuo-soccorso" target="_blank">Sito</a></p>
+                        </div>
+                    </div>
+                    <div class="donations__founds__single">
+                        <div class="donations__founds__single__inside">
+                            <img src="./assets/images/founds/torino.png" alt="Milano">
+                            <h3>Torino</h3>
+                            <p><strong>Fondo di Solidarietà Alimentare</strong></p>
+                            <p><strong>IBAN:</strong> IT69L0200801033000104431330</p>
+                            <p><strong>Causale:</strong> Donazioni uHelp</p>
+                            <p><strong>Info:</strong> <a href="http://www.torinoclick.it/?p=87850" target="_blank">Sito</a></p>
+                        </div>
+                    </div>
+                    <div class="donations__founds__single">
+                        <div class="donations__founds__single__inside">
+                            <img src="./assets/images/founds/como.png" alt="Milano">
+                            <h3>Como</h3>
+                            <p><strong>Fondazione Provinciale della Comunità Comasca</strong></p>
+                            <p><strong>IBAN:</strong> IT96U0843010900000000260290</p>
+                            <p><strong>Causale:</strong> Fondo Rotary Club Como per iniziative di solidarietà (uHelp)</p>
+                            <p><strong>Info:</strong> <a href="https://www.fondazione-comasca.it" target="_blank">Sito</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="donations__footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+            "background": "#1d8a8a"
+            },
+            "button": {
+            "background": "transparent",
+            "text": "#fff",
+            "border": "#fff"
+            }
+        },
+        "position": "bottom-right",
+        "content": {
+            "message": "Si informa che questo sito utilizza cookie tecnici per consentirne un’agevole navigazione. Il sito utilizza anche cookie analitici di terze parti per consentirci di riscontrare l’interesse degli utenti e migliorare la nostra offerta. Se si desidera saperne di più leggere l’informativa.",
+            "dismiss": "Accetto",
+            "link": "Informativa",
+            "href": "./privacy-policy.html"
+        }
+        });
+    </script>
+    <script src="./js/main.js"></script>
+    <script defer src="https://app.verse.id/widget.js?token=3483543f-2a96-47ab-a8b2-9c6bb3f7ab33&callback=init"></script>
+</body>
+
+</html>
